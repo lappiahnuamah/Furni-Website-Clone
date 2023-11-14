@@ -1,0 +1,536 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+*****************************************************************
+    start of the header section
+******************************************************************  */
+#dotted-black{
+    z-index: 1;
+    position: absolute;
+    right: 10px;
+}
+
+#couch {
+    position: relative;
+    z-index: 2;
+}
+
+.header {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 150px;
+    background-color: rgba(30, 71, 62, 0.788);
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+
+ul li a {
+    color: white;
+    padding: 30px 25px 0px 25px;
+    text-decoration: none;
+    float: left;
+    font-size: 17px;
+}
+
+.title2 {
+    padding: 30px 6px;
+    color: white;
+}
+
+
+h1 {
+    padding-top: 25px;
+    color: white;
+}
+
+
+ul li a:hover{
+    content: '';
+    border-radius: 3px;
+    border-bottom: 2px solid yellow;
+    transition: 0.4s;
+}
+
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.headers {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#left-header {
+    width: 50%;
+    flex: 30%;
+    padding-top: 100px;
+    padding-left: 130px;
+}
+
+#left-header h2 {
+    font-size: 40px;
+    color: white;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+#shop-now {
+    padding: 20px 50px;
+    margin-right: 5px;
+    border: 2px solid rgb(41, 39, 39);
+    border-radius: 12px;
+    border-radius: 80px;
+    font-size: 18px;
+    background-color: rgb(231, 231, 23);
+}
+
+#explore {
+    padding: 20px 50px;
+    border: 2px solid rgb(194, 194, 194);
+    border-radius: 80px;
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+}
+
+#explore:hover{
+    background-color: rgba(209, 199, 199,.2);
+}
+
+#left-header p {
+    padding-bottom: 30px;
+    text-overflow: clip;
+    line-height: 30px;
+    color: rgb(221, 221, 208);
+    font-size: 18px;
+}
+
+#right-header {
+    width: 100%;
+    flex: 0%;
+    
+}
+
+/* 
+*****************************************************************
+    end of the header section
+******************************************************************  */
+
+
+
+
+
+/* 
+*****************************************************************
+    start of the explore section
+******************************************************************  */
+.explore-section {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+    padding-bottom: 80px;
+}
+
+
+#sofa-1 {
+    width: 30%;
+    padding-left: 130px;
+    /* background-color: rgb(129, 127, 255); */
+}
+
+/* #sofa-2 #nordic {
+
+} */
+
+
+#sofa-2 img{
+    position: relative;
+    top: -60px;
+    bottom: 0;
+}
+
+#sofa-2 .center{
+    text-align: center;
+    position: relative;
+    top: 12px;
+    bottom: 0;
+    font-size: 28px;
+}
+
+#sofa-2 {
+    background-color: rgba(138, 141, 140, 0.3);
+    border-radius: 20px;
+    position: relative;
+    top: 60px;
+    text-align: center;
+    width: 19%;
+    height: max-content;
+
+}
+
+
+
+#sofa-2 p {
+    position: relative;
+    top: -40px;
+    padding-left: 10px;
+}
+
+
+#sofa-3 {
+    width: 20%;
+    text-align: center;
+    /* background-color: blueviolet; */
+}
+
+#sofa-3 p {
+    padding-left: 10px;
+}
+
+
+#sofa-4 {
+    width: 20%;
+    text-align: center;
+    /* background-color: rgb(43, 226, 113); */
+}
+
+#sofa-4 p {
+    padding-left: 10px;
+}
+
+.prices {
+    font-weight: bold;
+}
+
+
+.sofa img{
+    width: 70%;
+}
+
+
+.explore-craf {
+    font-size: 30px;
+    /* color: rgb(7, 7, 7); */
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+.explore-craf p {
+    align-self: baseline;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.explore-btn {
+    margin-top: 20px;
+    padding: 20px 50px;
+    border: 2px solid rgb(54, 51, 51);
+    border-radius: 12px;
+    border-radius: 80px;
+    color: white;
+    font-size: 19px;
+    background-color:  rgb(17, 12, 12);
+
+}
+/* 
+*****************************************************************
+    end of section 
+******************************************************************  */
+
+/* 
+**************************************************************************************
+start why choose us section 
+***************************************************************************************  */
+.choose-section {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+
+#choose-left{
+    width: 60%;
+}
+
+
+.choose-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    box-sizing: border-box;
+    padding-left: 130px;
+}
+
+.choose-topic h3{
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+
+.choose-topic {
+    padding-left: 130px;
+}
+
+
+.choose-topic p {
+    text-overflow: clip;
+}
+
+
+#choose-right {
+    width: 40%; 
+}
+
+
+#choose-right img{
+    border-radius: 10px;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .choose-topic {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .choose-details {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .choose-details i {
+    display: block;
+    font-size: 24px; 
+  } 
+  
+  .choose-details h4 {
+    font-size: 18px; 
+    margin: 0; 
+  } */
+  
+  .choose-details p {
+    margin: 0; 
+  } 
+
+/* 
+*****************************************************************
+    end of section 
+******************************************************************  */
+
+
+/* 
+******************************************************************
+start of  Modern Interior Design section
+*******************************************************************/
+.interior-section {
+    display: flex;
+    height: 900px;
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+    padding-left: 135px;
+    justify-content: space-around;
+}
+
+#interior-left {
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+
+#interior-left #grid1 {
+    z-index: 1;
+    position: relative;
+    bottom: 270px;
+    right:100px;
+}
+
+
+#interior-left #final-couch {
+    z-index: 2;
+    position: relative;
+    top: 50px;
+    left: -400px;
+    border-radius: 10px;
+}
+
+
+#interior-left #light {
+    z-index: 4;
+    position: relative;
+    bottom: 885px;
+    left: 650px;
+    border-radius: 10px;
+}
+
+
+#interior-left #table {
+    z-index: 3;
+    position: relative;
+    bottom: 380px;
+    left: 250px;
+    border-radius: 10px;
+}
+
+#interior-right {
+    flex-basis: 40%;
+    position: relative;
+    left: -80px;
+    /* background-color: blue; */
+}
+
+
+#interior-right .interior-topic  h3{
+    padding-top: 100px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    line-height: 40px;
+}
+
+
+#interior-right .interior-topic p {
+    padding: 30px 0px 40px 0px;
+    line-height: 22px;
+}
+
+
+.interior-details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.interior-details ul {
+    list-style-type: circle;
+}
+
+
+.interior-details ul li{
+    width: 50%;
+    box-sizing: border-box; 
+}
+
+.two-columns-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.two-columns-list li {
+    padding-bottom: 40px;
+}
+
+
+#explore-btn {
+    padding: 20px 50px;
+    margin-top: 40px;
+    color: white;
+    font-size: 19px;
+    background-color:  rgb(17, 12, 12);
+    border-radius: 80px;
+}
+/* 
+*****************************************************************
+    end of section 
+******************************************************************  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+******************************************************************
+start of showcase section
+*******************************************************************/
+.showcase-section {
+   width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around; 
+   
+}
+
+
+.showcase{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#showcase1 {
+    /* background-color: aqua; */
+}
+
+.showcase img {
+    width: 200px;
+    height: auto;
+}
+
+
+
+
+/* .showcase img {
+     
+}  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+******************************************************************
+       end of showcase section 
+*******************************************************************/
